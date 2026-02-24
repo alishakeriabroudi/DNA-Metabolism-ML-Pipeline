@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "DNA-Metabolism-ML-Pipeline"
+version: "0.1.0"
+authors:
+  - family-names: "Shakeri Abroudi"
+    given-names: "Ali"
+license: "MIT"
+repository-code: "https://github.com/alishakeriabroudi/DNA-Metabolism-ML-Pipeline"

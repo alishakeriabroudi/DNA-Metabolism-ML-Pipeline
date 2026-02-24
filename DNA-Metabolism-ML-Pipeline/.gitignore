@@ -1,0 +1,19 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python / notebooks (optional)
+__pycache__/
+.ipynb_checkpoints/
+
+# Local envs
+.venv/
+venv/
+env/
+ENV/
+
+# Outputs
+results/
+cache/
+data/raw/

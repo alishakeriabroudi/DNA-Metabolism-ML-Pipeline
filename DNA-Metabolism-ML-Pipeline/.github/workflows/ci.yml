@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  r-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "4.3"
+
+      - name: Install system deps
+        run: sudo apt-get update && sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+
+      - name: Install minimal R deps
+        run: |
+          Rscript -e 'install.packages(c("yaml","BiocManager"), repos="https://cloud.r-project.org")'
+          Rscript -e 'BiocManager::install(c("SummarizedExperiment"), ask=FALSE, update=FALSE)'
+
+      - name: Parse scripts (syntax check)
+        run: |
+          Rscript -e 'parse(file="scripts_r/01_tcga_download.R"); parse(file="scripts_r/02_deg_edger.R"); parse(file="scripts_r/03_enrichment_go_kegg_ppi.R"); parse(file="scripts_r/04_consensus_clustering.R"); parse(file="scripts_r/05_immune_estimate_ssgsea.R")'
+          Rscript -e 'parse(file="R/utils.R")'
