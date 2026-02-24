@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it and the associated paper."
+title: "Companion analysis repository (clean core + experimental)"
+type: software
+authors:
+  - family-names: "Shakeri Abroudi"
+    given-names: "Ali"
+license: MIT
+repository-code: "https://github.com/<your-username>/<your-repo>"
