@@ -1,9 +1,22 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-title: "DNA-Metabolism-ML-Pipeline"
-version: "0.1.0"
+message: "If you use this code, please cite the associated paper."
+title: "DNA Metabolism ML Pipeline"
 authors:
-  - family-names: "Shakeri Abroudi"
-    given-names: "Ali"
-license: "MIT"
+  - family-names: "Abroudi"
+    given-names: "Ali Shakeri"
 repository-code: "https://github.com/alishakeriabroudi/DNA-Metabolism-ML-Pipeline"
+preferred-citation:
+  type: article
+  title: "Using machine learning to discover DNA metabolism biomarkers that direct prostate cancer treatment"
+  authors:
+    - family-names: "Abroudi"
+      given-names: "Ali Shakeri"
+    - family-names: "Djamali"
+      given-names: "Melika"
+    - family-names: "Azizi"
+      given-names: "Hossein"
+  journal: "Scientific Reports"
+  volume: 15
+  year: 2025
+  doi: "10.1038/s41598-025-11457-1"
+  date-published: 2025-07-18
