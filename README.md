@@ -19,6 +19,11 @@ This repo is organized to be **reviewable**, **config-driven**, and easy to run 
 Ali Shakeri Abroudi, Melika Djamali, Hossein Azizi — *Scientific Reports* 15, 26117 (2025)  
 DOI: https://doi.org/10.1038/s41598-025-11457-1
 
+## Software DOI (Zenodo)
+
+- **Cite all versions (Concept DOI):** https://doi.org/10.5281/zenodo.18772013  
+- **This release (v1.0.1, Version DOI):** https://doi.org/10.5281/zenodo.18772014
+  
 ---
 
 ## Requirements
