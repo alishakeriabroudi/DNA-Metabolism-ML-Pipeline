@@ -1,10 +1,24 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the associated paper."
-title: "DNA Metabolism ML Pipeline"
+message: "If you use this repository, please cite the software (Zenodo) and the associated paper."
+title: "DNA-Metabolism-ML-Pipeline"
 authors:
   - family-names: "Abroudi"
     given-names: "Ali Shakeri"
 repository-code: "https://github.com/alishakeriabroudi/DNA-Metabolism-ML-Pipeline"
+doi: "10.5281/zenodo.18772013"
+keywords:
+  - "TCGA"
+  - "prostate cancer"
+  - "transcriptomics"
+  - "bulk RNA-seq"
+  - "bioinformatics"
+  - "machine learning"
+  - "edgeR"
+  - "clusterProfiler"
+license: "MIT"
+
+# Preferred citation points to the paper (article) while the software DOI above
+# (concept DOI) covers the repository as a whole.
 preferred-citation:
   type: article
   title: "Using machine learning to discover DNA metabolism biomarkers that direct prostate cancer treatment"
@@ -19,4 +33,11 @@ preferred-citation:
   volume: 15
   year: 2025
   doi: "10.1038/s41598-025-11457-1"
-  date-published: 2025-07-18
+
+# Optional (nice to have): explicitly record the software version DOI too.
+# You can update "version" when you cut a new release.
+version: "1.0.1"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.18772014"
+    description: "Version DOI for release v1.0.1"
