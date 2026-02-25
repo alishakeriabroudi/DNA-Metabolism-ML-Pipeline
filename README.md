@@ -46,5 +46,10 @@ All outputs go to `results/` (see subfolders inside `config/config.yaml`).
 - Scripts are **thin wrappers** that call functions in `R/` (shared utilities + pipeline steps).
 - The pipeline is designed to be robust: clear errors, deterministic folder structure, and minimal hard‑coding.
 
+## Associated publication
+- **Using machine learning to discover DNA metabolism biomarkers that direct prostate cancer treatment**  
+- Ali Shakeri Abroudi, Melika Djamali, Hossein Azizi — *Scientific Reports* 15, 26117 (2025)  
+- DOI: https://doi.org/10.1038/s41598-025-11457-1
+
 ## License
 MIT (see `LICENSE`).
